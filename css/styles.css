@@ -14,6 +14,15 @@
 html {
   font-size: 62.5%; /* 1rem = 10px */
   box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+}
+
+/* Scroll Snap */
+.header,
+.services,
+.form {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
 
 *,
@@ -250,4 +259,9 @@ h3 {
 
 .form-field__input--textarea {
   height: 20rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
 }

@@ -34,6 +34,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: var(--main-font);
+  background-image: linear-gradient(to top, var(--light-grey) 0%, var(--white) 100%);
 }
 
 .container {
@@ -64,6 +65,13 @@ body {
 
 .button:hover {
   cursor: pointer;
+}
+
+.shadow {
+  box-shadow: 0rem 0.5rem 1.5rem 0rem rgba(112, 112, 112, 0.48);
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
 /* Typography */
